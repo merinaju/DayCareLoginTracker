@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayCareLoginTracker", "DayCareLoginTracker\DayCareLoginTracker.csproj", "{98E90D8C-AC4C-4195-AA91-639D33E0AC72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayCareApp", "DayCareApp\DayCareApp.csproj", "{31ED65BD-F698-4F69-A9A5-43683A472EA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{2AD5AC00-0527-4E12-9760-EEE220F33FC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{5B34D80A-E99E-4D88-9AB8-F3A2ACE100AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{FF615203-190B-42E7-A28C-D3E0CA2650D5}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\DayCareApp.json = PublishScripts\Templates\DayCareApp.json
+		PublishScripts\Templates\DayCareApp.param.dev.json = PublishScripts\Templates\DayCareApp.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98E90D8C-AC4C-4195-AA91-639D33E0AC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E90D8C-AC4C-4195-AA91-639D33E0AC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E90D8C-AC4C-4195-AA91-639D33E0AC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E90D8C-AC4C-4195-AA91-639D33E0AC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31ED65BD-F698-4F69-A9A5-43683A472EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31ED65BD-F698-4F69-A9A5-43683A472EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31ED65BD-F698-4F69-A9A5-43683A472EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31ED65BD-F698-4F69-A9A5-43683A472EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B34D80A-E99E-4D88-9AB8-F3A2ACE100AB} = {2AD5AC00-0527-4E12-9760-EEE220F33FC8}
+		{FF615203-190B-42E7-A28C-D3E0CA2650D5} = {2AD5AC00-0527-4E12-9760-EEE220F33FC8}
+	EndGlobalSection
+EndGlobal
